@@ -24,3 +24,8 @@ userService.list();
 let customer = { id: 1, firstName: "Harun" };
 customer.lastName = "Şimşek";
 console.log(customer.lastName);
+
+console.log("--------------------------------------");
+userService.load();
+console.log(userService.customers);
+console.log(userService.employees);
